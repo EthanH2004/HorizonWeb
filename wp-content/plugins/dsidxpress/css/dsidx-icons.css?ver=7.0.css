@@ -1,0 +1,46 @@
+@font-face {
+	font-family: 'dsidx-icons';
+	src:url('fonts/dsidx-icons.eot%3Fb684fy');
+	src:url('fonts/dsidx-icons.eot%3F') format('embedded-opentype'),
+		url('fonts/dsidx-icons.woff%3Fb684fy') format('woff'),
+		url('fonts/dsidx-icons.ttf%3Fb684fy') format('truetype'),
+		url('fonts/dsidx-icons.svg%3Fb684fy') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body.wp-admin [class^="dsidx-"], body.wp-admin [class*=" dsidx-"] {
+	font-family: 'dsidx-icons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body.wp-admin .dsidx-search:before {
+	content: "\e603";
+}
+
+body.wp-admin .dsidx-link:before {
+	content: "\e600";
+}
+
+body.wp-admin .dsidx-listing:before {
+	content: "\e601";
+}
+
+body.wp-admin .dsidx-listings:before {
+	content: "\e602";
+}
+
+body.wp-admin #toplevel_page_dsidxpress .wp-menu-image img{
+  padding: 8px 4px 0 0!important;
+  width: 26px!important;
+  opacity: 0.75;
+}

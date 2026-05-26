@@ -1,0 +1,244 @@
+p.dsidx-error
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px;
+    border: 1px solid #FF0000;
+}
+.dsidx-search-widget h3 {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+    line-height: 18px;
+}
+.dsidx-widget
+{
+    text-align: left;
+}
+.dsidx-search-widget {
+    max-width: 400px;
+    margin: 0 auto;
+}
+.dsidx-search-widget label {
+    display: inline-block;
+    width: 20%;
+    padding: 5px;
+    float: left;
+    clear: both;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.dsidx-search-widget input[type=text], .dsidx-search-widget select {
+    display: inline-block;
+    width: 80% !important;
+    padding: 5px;
+    margin: 3px 0;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.dsidx-search-widget input.dsidx-price
+{
+    width: 39% !important;
+}
+.dsidx-search-widget #idx-q-PriceMax,
+.dsidx-search-widget input.dsidx-beds,
+.dsidx-search-widget input.dsidx-baths,
+.dsidx-search-widget input.dsidx-improvedsqft,
+.dsidx-search-widget input.dsidx-mlsnumber
+{
+    float: right;
+}
+.dsidx-widget.dsidx-search-widget .dsidx-search-button
+{
+    padding-top: 6px;
+    text-align:center;
+}
+.dsidx-search-widget .dsidx-search-button
+{
+    font-size: 12px;
+}
+.dsidx-search-widget .dsidx-search-button img
+{
+    vertical-align:-3px;
+    border: 0;
+}
+.dsidx-search-widget .dsidx-search-widget-propertyTypes, .dsidx-search-widget .idx-q-Location-Filter
+{
+    width: 100% !important;
+}
+.dsidx-widget.dsidx-search-widget .dsidx-search-button
+{
+    padding-top: 6px;
+    text-align:center;
+    margin: 0 auto;
+    background: none;
+    clear: both;
+}
+.dsidx-search-widget .dsidx-search-button .submit
+{
+    font-size: 12px;
+    float: none;
+    margin: 15px auto 0;
+    padding: 5px;
+    text-align: center;
+}
+.dsidx-search-widget #idx-search-invalid-msg { display: none; }
+
+.dsidx-shortcode-registration-dialog-message {
+	color: red;
+	margin: 7px 0;
+}
+
+.dsidx-loginBtn--facebook {
+    background: #4067B4;
+    text-shadow: 0 -1px 0 #354C8C;
+    margin: auto;
+    display: block;
+    font-family: Verdana,Arial,sans-serif !important;
+    font-size: 12px !important;
+    font-weight: bold !important;
+}
+    .dsidx-loginBtn--facebook:before {
+        border-right: #364e92 1px solid;
+        background: url('https://api-idx.diversesolutions.com/Images/dsIDXpress/Icons/icon_facebook.png') no-repeat;
+    }
+    .dsidx-loginBtn--facebook:hover,
+    .dsidx-loginBtn--facebook:focus {
+        background: #4067B4;
+    }
+
+.dsidx-loginBtn--google {
+    background: #ffffff;
+    margin: auto;
+    display: block;
+    font-family: Verdana,Arial,sans-serif !important;
+    font-size: 12px !important;
+    font-weight: bold !important;
+    color: gray;
+    border: 1px solid gray;
+}
+
+    .dsidx-loginBtn--google:before {
+        border-right: gray 1px solid;
+        background: url('https://api-idx.diversesolutions.com/Images/dsIDXpress/Icons/icon_google.png') 6px 6px no-repeat;
+    }
+
+    .dsidx-loginBtn--google:hover,
+    .dsidx-loginBtn--google:focus {
+        background: #ffffff;    
+    }
+
+.dsidx-shortcode-registration-dialog-message-success {
+	color: green;
+}
+
+.dsidx-sso-separator-bar{
+    background-color: black;
+    width: 3px;
+    height: 90%;
+}
+@media screen and (max-width: 991px) {
+    .dsidx-sso-separator-bar{
+        background-color: black;
+        width: 100%;
+        height: 3px;
+    }    
+}
+.dsidx-shortcode-registration-main {
+    background-color:transparent;
+    font-family: Arial, Helvetica;
+	font-size: 12px;
+	color: #666666;
+    width: auto; 
+    min-height: 100px; 
+    max-height: none; 
+    height: auto;
+ }
+
+.dsidx-shortcode-registration-header {
+    background-color:#C3C7CA;
+    border-radius:4px;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+ }
+ .dsidx-shortcode-registration-sso-message {
+    background-color:#C3C7CA;
+    border-radius:4px;
+    color: black;
+    font-weight: bold;
+ }
+.dsidx-shortcode-registration-submit {
+    display: block;
+    margin: auto;
+    width: 100%;
+    font-size: 12px !important;
+}
+.dsidx-shortcode-registration-submit-no-sso {
+    display: block;
+    margin: auto;
+    width: 100%;
+    font-size: 12px !important;    
+}
+.dsidx-auth-large-button
+{
+	display: inline-block !important;
+	padding: 0 8px !important;
+	text-align: center !important;
+	height: 30px !important;
+	line-height: 30px !important;
+	position: relative !important;
+	color: White !important;
+	cursor:pointer !important;
+	font-weight: bold !important;
+	text-transform: uppercase !important;
+	font-family: "Arial"; font-weight:bold; font-size: 12px;
+	border: 2px solid #5FB520;
+	border-radius: 2px !important;
+	-moz-border-radius: 2px !important;
+	
+	background: #86D42D !important;
+	background: -webkit-linear-gradient(top, #86D42D 0%, #389613 100%) !important; /* Webkit */
+	background: -ms-linear-gradient(top, #86D42D 0%, #389613 100%) !important; /* IE10 */ 
+	background: -moz-linear-gradient(top, #86D42D 0%, #389613 100%) !important; /* Firefox */
+}
+
+
+.dsidx-auth-large-button:hover
+{
+	background: #389613 !important;
+	background: -webkit-linear-gradient(top, #389613 0%, #86D42D 100%) !important; /* Webkit */
+	background: -ms-linear-gradient(top, #389613 0%, #86D42D 100%) !important; /* IE10 */ 
+	background: -moz-linear-gradient(top, #389613 0%, #86D42D 100%) !important; /* Firefox */
+	
+	text-decoration: none;
+}
+.dsidx-shortcode-registration-field {
+    display: block;
+    margin: 0;
+    font-size: 12px !important;
+    font-family: Verdana,Arial,sans-serif !important;
+    font-weight: normal;
+    color: #666666;
+    box-shadow: unset;
+    padding: 4px 5px;
+    border-left: solid 1px #abadb3;
+    border-bottom: solid 1px #abadb3;
+    border-top: solid 1px #c8c9cc;
+    border-right: solid 1px #c8c9cc;
+    width: 100%;
+    box-sizing: border-box;
+ } 
+ .dsidx-shortcode-registration-main label 
+{
+	display: block;
+	font-size: 11px;
+	font-weight: bold;
+	color: #7c7878;
+    float: none;
+    font-family: Arial, Helvetica;
+	font-size: 12px;
+	color: #666666;
+}
+/** Attempt to hide author info etc. on IDX pages **/
+body.dsidx .post-info, body.dsidx .post-meta, body.dsidx .post-info, body.dsidx .entry-meta, .ds-idx-listings-page .post-info, .ds-idx-listings-page .post-meta, .ds-idx-listings-page .post-info, .ds-idx-listings-page .entry-meta{ display: none; }
